@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 13px;
+}
+
+/* CSS top-bar */
+.top-bar{
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .address,
+.container .phone{
+    padding: 0px 50px;
+}
+.container i{
+    color: orange;
+    font-size: 15px;
+}
+.top-bar .container a{
+    text-decoration: none;
+    color:rgb(86, 85, 85);
+}
+.top-bar .container a:hover{
+    color: orange;
+}
+/* CSS navigation */
+.header{
+    position: sticky;
+    top: 0px;
+    opacity: 0.8;
+    background-color: #ffff;
+    height:50px;
+    z-index: 999;
+    height: 45px;
+}
+.header_nav{
+    display: flex;
+    margin:0px 35px; 
+    align-items: center;   
+}
+.header_nav .header_logo{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.header_nav .header_logo a{
+    text-decoration: none;
+}
+.header_nav .header_menu{
+    display: flex;
+    align-items: flex-end;
+    width: 60%;
+
+}
+
+.header_nav .header_menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header_nav .header_menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 10px;
+    color: black;
+    font-weight: bold;
+    
+}
+.header_nav .header_menu ul li:hover a{
+    color: orange;
+}
+
+/* Menu CSS */
+/* Content CSS */
+.main {
+    flex: 1;  /* This makes the main content take up all available space */
+    padding-bottom: 20px; /* Ensures space for footer */
+}
+.row{
+    margin: 10px 0px;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    transform:translateY(-45px) ;
+    top: 45px;
+}
+/* CSS phần content */
+img{
+    width: 100%;
+}
+.main .row img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 0.374);
+
+}
+.row-item{
+    padding-top: 30px;
+}
+.row a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.row a:hover{
+    color: orange;
+}
+.product_price{
+    font-size: 12px;
+    color:rgb(86, 85, 85);
+}
+/* CSS cho phần quảng cáo Trà xanh */
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;  /* Add some space above the footer */
+}
+
+.footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .footer-links {
+    margin: 10px 0;
+}
+
+.footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer .footer-links a:hover {
+    color: orange;
+}
+
+.footer .footer-social {
+    margin: 10px 0;
+}
+
+.footer .footer-social a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.footer .footer-social a:hover {
+    color: orange;
+}
+
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,121 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form{
+    background-color: #FFF;
+    border-radius: 5px;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+
+}
+
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+
+}
+
+form .field{
+    height: 45px;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    border-radius: 6px;
+}
+
+
+
+.field input, .field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+
+
+}
+
+.field button{
+    background-color: #0171d3;
+    color: #FFF;
+    transition: all 0.3s ease;
+    cursor: pointer; 
+}
+
+.field button:hover{
+    background-color: #016dcb;
+}
+
+.field input{
+    border: 1px solid #CACACA;
+    padding: 0 15px;
+   outline: none;
+    
+}
+
+.field input:focus{
+    border-bottom-width: 2px;    
+}
+
+.eye-icon{
+    font-size: 18px;
+    color: #8b8b8b;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link span 
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+
+}
+
+.form a{
+    text-decoration: none;
+    color: #0171d3;
+
+}
+
+.form a:hover{
+    text-decoration: underline;
+    
+}
+

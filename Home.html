@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The coffee house</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!-- Tạo thẻ div chứa phần top (địa chỉ và sđt của cửa hàng) -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="address">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="">Cửa hàng khắp cả nước</a>
+            </div>
+
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                <a href="">Đặt hàng: 1800.6936</a>
+            </div>
+        </div>
+    </div>
+    <!-- Tạo thẻ header chứa navigation của website -->
+    <div class="header">
+        <div class="header_nav">
+            <!-- Thẻ chứa logo -->
+            <div class="header_logo">
+                <a href="">The Tool House</a>
+            </div>
+            <!-- Thẻ chứa navigations -->
+            <div class="header_menu">
+                <ul>
+
+                    
+                    <li><a href="profile.html">Profile and Logout </a></li>
+
+                    <li><a href="Cart.html">Your Cart</a></li>
+
+                    <li><a href="#hand-tools">Hand Tools</a></li>
+                    <li><a href="#electrical-stuff">Electrical Circuit Equipment</a></li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tạo thẻ chứa content của website -->
+    <div class="main">
+        <!-- sử dụng container (boostrap để chứa toàn bộ nội dung của phần main) -->
+        <div class="container-fluid">
+            <!-- banner -->
+            <div class="row">
+                <div class="banner col-12">
+                    <img src="https://th.bing.com/th/id/R.389535bfb3b8c36ea8dd53cf18807003?rik=B33JAmUUdbhq6g&pid=ImgRaw&r=0"
+                        alt="">
+                </div>
+            </div>
+
+            <!-- Product -->
+            <!-- Product row-1 -->
+            <div class="row">
+
+
+                <!-- Sản phẩm - Bơ -->
+                <div class="col-3">
+                    <div class="img">
+                        <a href="">
+                            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lkj1tno7u9b00b@resize_w450_nl.webp"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="information">
+                        <div class="product_name">
+                            <a href="">Chainsaw adapter for automatic oiling of hand held grinder - Chainsaw blade, chain bar set</a>
+                        </div>
+                    </div>
+                    <div class="product_price">110.000</div>
+                    <button class="add-to-cart" data-id="1" data-name="Product 1" data-price="110.00">Add to
+                        Cart</button>
+
+                </div>
+                <div class="col-3">
+                    <div class="img">
+                        <a href="">
+                            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lonmxcrz3s3vaa@resize_w450_nl.webp"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="information">
+                        <div class="product_name">
+                            <a href="">Bolt and screw opening tool set, car and motorbike repair, high-quality 46-piece multi-purpose tool set</a>
+                        </div>
+                        <div class="product_price">70.000</div>
+                        <button class="add-to-cart" data-id="2" data-name="Product 2" data-price="70.00">Add to
+                            Cart</button>
+
+                    </div>
+                </div>
+
+
+                <!-- Sản phẩm 1 - Bơ sữa phô mai -->
+                <div class="col-3">
+                    <div class="img">
+                        <a href="">
+                            <img src="https://down-vn.img.susercontent.com/file/2d4c25d5fe5f341c2ca9629dda003541@resize_w450_nl.webp"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="information">
+                        <div class="product_name">
+                            <a href="">Multi-function Screwdriver Set, Mini Multi-function Screwdriver Set with 24 Small Heads for Phone Repair</a>
+                        </div>
+                        <div class="product_price">40.000</div>
+                        <button class="add-to-cart" data-id="3" data-name="Product 3" data-price="40.00">Add to
+                            Cart</button>
+
+                    </div>
+                </div>
+                <!-- Sản phẩm 2 - Bơ sữa phô mai -->
+                <div class="col-3">
+                    <div class="img">
+                        <a href="">
+                            <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rd41-lukitty1bzr9b0@resize_w450_nl.webp"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="information">
+                        <div class="product_name">
+                            <a href="">Airaj Multi-Functional Multi-Functional Pliers Wire Cutter Professional Electrical Hardware Anti-Slip Durable Repair Tools</a>
+                        </div>
+                    </div>
+                    <div class="product_price">70.000đ</div>
+                    <button class="add-to-cart" data-id="4" data-name="Product 4" data-price="70.00 ">Add to
+                        Cart</button>
+
+                </div>
+
+                <a href="">Hand Tools</a>
+
+                <div id="hand-tools" class="row">
+                    <!-- Example of hand tools -->
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/vn-11134211-7r98o-m084aj9bq6q7d0@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">AQ wrench with rubber handle, high quality stainless steel. Sizes 8'' - 200mm, 10'' - 250mm, 12'' - 300mm</a>
+                            </div>
+                        </div>
+                        <div class="product_price">75.000đ</div>
+                        <button class="add-to-cart" data-id="5" data-name="Product 5" data-price="75.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lza57ixodwel51@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">Cordless Drill, 72V Screwdriver with 3 Functions Accessories: DRILL, SCREW, HAMMER, sheet metal impact driver</a>
+                            </div>
+                        </div>
+                        <div class="product_price">500.000đ</div>
+                        <button class="add-to-cart" data-id="6" data-name="Product 6" data-price="500.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lznqdflfkz0t84@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">[12 MONTH WARRANTY] Complete Set of New Model 2024 Explosive Nail Gun for Concrete Nailing (Includes 100 Nails)</a>
+                            </div>
+                        </div>
+                        <div class="product_price">258.000đ</div>
+                        <button class="add-to-cart" data-id="7" data-name="Product 7" data-price="258.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lgd41cvy5alz78@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">【FREESHIP】Cordless Electric Drill Cordless Electric Screwdriver 1800MAH Handheld Electric Drill, 90° Rotation</a>
+                            </div>
+                        </div>
+                        <div class="product_price">202.000đ</div>
+                        <button class="add-to-cart" data-id="8" data-name="Product 8" data-price="202.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7qveu-lik1iflajfep12@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">HSC8 6-4A self-adjusting square cos crimping pliers with 1200 cos heads of all kinds of round tube cos pin cos</a>
+                            </div>
+                        </div>
+                        <div class="product_price">158.000đ</div>
+                        <button class="add-to-cart" data-id="9" data-name="Product 9" data-price="158.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/4f4cffed3451a24e3e3a670f8ff34632@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">Set of 11, 16 high-quality drill bits for drilling holes in plaster, wood...</a>
+                            </div>
+                        </div>
+                        <div class="product_price">99.000đ</div>
+                        <button class="add-to-cart" data-id="10" data-name="Product 10" data-price="99.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lzsz78buf8o23b@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">1 Cross Magnetic Screwdriver Bit Alloy Steel Anti-slip Long Drill Bit PH2</a>
+                            </div>
+                        </div>
+                        <div class="product_price">8.000đ</div>
+                        <button class="add-to-cart" data-id="11" data-name="Product 11" data-price="8.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/fdb05ad101bf118b8afc0204987009d7@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">[SHOCKING PRICE] Dead End Pliers, Covered Hand Dead End Pliers, Dead End Pliers, 10inch Dead End Pliers</a>
+                            </div>
+                        </div>
+                        <div class="product_price">43.000đ</div>
+                        <button class="add-to-cart" data-id="12" data-name="Product 12" data-price="43.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+                </div>
+
+
+                <a href="">Electrical Circuit Equipment</a>
+                
+                <div id="electrical-stuff" class="row">
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rbkt-lpb2y2msas9x25@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">Multi-function electric tester with LED indicator and screwdriver (magnetic)</a>
+                            </div>
+                        </div>
+                        <div class="product_price">14.000đ</div>
+                        <button class="add-to-cart" data-id="13" data-name="Product 13" data-price="14.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22120-khamw87gvskvbb@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">TP4056 Battery Charger Circuit - 18650 Battery Charger 3V7- 4V2 WITH BATTERY PROTECTION</a>
+                            </div>
+                        </div>
+                        <div class="product_price">15.000đ</div>
+                        <button class="add-to-cart" data-id="14" data-name="Product 14" data-price="15.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lo4u3609v7pj0c@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">High Quality Copper Wire Connector 5 10 20 30 40 50 100 300a</a>
+                            </div>
+                        </div>
+                        <div class="product_price">7.000đ</div>
+                        <button class="add-to-cart" data-id="15" data-name="Product 15" data-price="7.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/86df217652f2a825c32431ab00946995@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">Pack of 50 1/4W 5% Range Resistors</a>
+                            </div>
+                        </div>
+                        <div class="product_price">2.000đ</div>
+                        <button class="add-to-cart" data-id="16" data-name="Product 16" data-price="2.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rd3o-luez9e4xdfpiae@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">3s / 4s / 5s Bms 12v 16.8v 21v 100a Li-ion Lmo Ternary Lithium Battery Protection Board Li-polymer Li-polymer Balance Charger Module</a>
+                            </div>
+                        </div>
+                        <div class="product_price">41.000đ</div>
+                        <button class="add-to-cart" data-id="17" data-name="Product 17" data-price="41.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lktf6r0cr2sxd9@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">JIASHI High Quality Universal USB Power Socket Circuit Board</a>
+                            </div>
+                        </div>
+                        <div class="product_price">85.000đ</div>
+                        <button class="add-to-cart" data-id="18" data-name="Product 18" data-price="85.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22100-1135vvhu7miv4a@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">Controller-Remote control switch rf 100M through wall high power 30A (3000W)/ voltage 110 - 220V (Black)</a>
+                            </div>
+                        </div>
+                        <div class="product_price">59.000đ</div>
+                        <button class="add-to-cart" data-id="19" data-name="Product 19" data-price="59.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+
+                    <div class="col-3">
+                        <div class="img">
+                            <a href="">
+                                <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22100-ca7a7jyuzhiv7c@resize_w450_nl.webp"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="information">
+                            <div class="product_name">
+                                <a href="">PWM 2A DC 1.8V-12V 1803BK motor speed control circuit</a>
+                            </div>
+                        </div>
+                        <div class="product_price">10.000đ</div>
+                        <button class="add-to-cart" data-id="20" data-name="Product 20" data-price="10.00 ">Add to
+                            Cart</button>
+    
+                    </div>
+                </div>
+                
+                <!-- Product row-2 -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-copyright">© Copyright 2024 Qụa Đen.</div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="addToCart.js"></script>
+
+</body>
+
+</html>
